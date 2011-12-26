@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu Map" android:orderInCategory="0" android:id="@+id/see_map_menu"></item>
+    <item android:title="Clear Table" android:orderInCategory="1" android:id="@+id/clear_menu"></item>    
+</menu>

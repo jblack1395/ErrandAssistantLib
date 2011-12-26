@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/recalc_menu" android:title="Recalculate" android:visible="true"></item>    
+    <item android:id="@+id/next_destination_menu" android:title="Next Destination" android:visible="true"></item>    
+    <item android:id="@+id/suggestion_menu" android:title="Suggestion" android:visible="true"></item>    
+</menu>

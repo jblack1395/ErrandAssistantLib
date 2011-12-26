@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/layout/mapview.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/map_detail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/provider_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:apiKey="07joBrbgH7WYp-u0RktTg47BpkrFnyz2O_2loDA" 
+        android:clickable="true" />
+    <!--
+    Release
+        android:apiKey="0OAYW2srStT-3MJeIFyHZIMkPIkDcB5OZv3jOSQ" 
+    Debug
+        android:apiKey="07joBrbgH7WYp-u0RktTg47BpkrFnyz2O_2loDA" 
+    -->
+
+</LinearLayout>

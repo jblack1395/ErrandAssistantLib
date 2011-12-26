@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+      <string name="tagPrompt">Enter address</string>
+      <string name="go_map">Go to map</string>
+      <string name="seemapmenu">See Map</string>
+      <string name="save">Save</string>
+      <string name="voicebutton">Speak</string>
+      <string name="voice_not_recognized">Unable to determine words spoken</string>
+      <string name="suggestion">Suggestion</string>
+</resources>

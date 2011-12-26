@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/details_menu" android:visible="true" android:title="Details"></item>
+    <item android:id="@+id/exit_menu" android:title="Exit" android:visible="true"></item>    
+    <item android:id="@+id/help_menu" android:title="Help" android:visible="true"></item>    
+</menu>

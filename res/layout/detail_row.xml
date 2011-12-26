@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TweetLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:id="@+id/road_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/roadName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:text=""
+                android:textSize="5pt" >
+            </TextView>
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/roadInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:text=""
+                android:textSize="8pt"
+                android:textStyle="bold" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:padding="5dp" android:stretchColumns="*">
+	<TableRow android:id="@+id/tableRow1"
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/addressText" android:layout_width="@dimen/editButtonWidth"
+			android:maxWidth="@dimen/editButtonWidth" android:maxLines="3"
+			android:minLines="1" android:layout_height="wrap_content"
+			android:imeOptions="actionDone" android:layout_gravity="center_vertical"
+			android:hint="@string/tagPrompt" android:inputType="text"
+			android:layout_span="3">
+		</EditText>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/saveButton" android:layout_width="@dimen/tagButtonWidth"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:text="@string/save" android:layout_span="2"></Button>
+		<Button android:id="@+id/speakButton" android:layout_width="fill_parent"
+			android:onClick="speakButtonClicked" android:layout_height="wrap_content"
+			android:text="@string/voicebutton" />
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1">
+		<ScrollView android:id="@+id/queryScrollView"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:padding="5dp" android:layout_span="3">
+			<TableLayout android:layout_height="match_parent"
+				android:id="@+id/queryTableLayout" android:stretchColumns="*"
+				android:layout_width="wrap_content" android:padding="5dp">
+			</TableLayout>
+		</ScrollView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/go_map"
+			android:id="@+id/plotRouteButton"
+			android:layout_marginTop="5dp" android:layout_span="3"></Button>
+	</TableRow>
+</TableLayout>
